@@ -21,7 +21,15 @@ public class Typewriter : MonoBehaviour
     {
         StartCoroutine(typewriter());
     }
-    
+
+    public void NewLine(string newLine)
+    {
+        if(line == newLine) return;
+        StopCoroutine(typewriter());
+        line = newLine;
+        text.text = String.Empty;
+        StartCoroutine(typewriter());
+    }
     IEnumerator typewriter()
     {
         foreach (char c in line.ToCharArray())

@@ -17,6 +17,7 @@ public class DialogueNode : MonoBehaviour
 {
     public DialogueSubNode[] subNodes;
     public QuestionNode[] questionNodes;
+    public DialogueNode nextDialogueNodeAtEndOfDialogue;
     private int _index = 0;
 
 
@@ -45,7 +46,11 @@ public class DialogueNode : MonoBehaviour
         }
         else
         {
-            Debug.Log("End of Dialogue Node");
+            if (questionNodes.Length == 0)
+            {
+                DialogueManager.Current.StartDialogue(nextDialogueNodeAtEndOfDialogue);
+                return;
+            }
         }
         StartDialogue();
     }

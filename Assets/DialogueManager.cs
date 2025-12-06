@@ -16,7 +16,7 @@ public class DialogueManager : MonoBehaviour
     private DialogueNode LoadedDialogueNode;
     
     public DialogueNode startingDialogueNode;
-
+    public Typewriter typewriter;
     private void Awake()
     {
         if (Current != null && Current != this)
@@ -45,6 +45,9 @@ public class DialogueManager : MonoBehaviour
 
     public void StartDialogue(DialogueNode dialogueNode)
     {
+        loadedDialogueIndex = 0;
+        dialogueActive = true;
+        LoadedDialogueNode = dialogueNode;
         dialogueNode.StartNodeFromStart();
     }
 
@@ -81,9 +84,9 @@ public class DialogueManager : MonoBehaviour
 
     public void DisplayNextNode(DialogueSubNode subNode, int index)
     {
+        typewriter.NewLine(subNode.text);
         dialogueActive = true;
         loadedDialogueIndex = index;
-        text.text = subNode.text;
         textDuration = subNode.dialogueDuration;
     }
 
