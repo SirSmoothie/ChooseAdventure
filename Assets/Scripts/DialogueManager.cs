@@ -1,6 +1,7 @@
 using System;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class DialogueManager : MonoBehaviour
 {
@@ -17,6 +18,8 @@ public class DialogueManager : MonoBehaviour
     
     public DialogueNode startingDialogueNode;
     public Typewriter typewriter;
+
+    public RawImage imageSlot;
     private void Awake()
     {
         if (Current != null && Current != this)
@@ -82,9 +85,13 @@ public class DialogueManager : MonoBehaviour
         loadedDialogueIndex = 0;
     }
 
-    public void DisplayNextNode(DialogueSubNode subNode, int index)
+    public void DisplayNextNode(DialogueSubNode subNode, int index, Sprite inputImage)
     {
         typewriter.NewLine(subNode.text);
+        if (inputImage != null)
+        {
+            imageSlot.texture = inputImage.texture;
+        }
         dialogueActive = true;
         loadedDialogueIndex = index;
         textDuration = subNode.dialogueDuration;

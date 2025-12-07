@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 [System.Serializable]
 public class DialogueSubNode
@@ -6,6 +7,7 @@ public class DialogueSubNode
     public string text;
     public bool endOfDialogue = false;
     public float dialogueDuration = 20f;
+    public Sprite image;
 }
 [System.Serializable]
 public class QuestionNode
@@ -30,7 +32,7 @@ public class DialogueNode : MonoBehaviour
 
     private void StartDialogue()
     {
-        DialogueManager.Current.DisplayNextNode(subNodes[_index], _index);
+        DialogueManager.Current.DisplayNextNode(subNodes[_index], _index, subNodes[_index].image);
     }
 
     public string ReturnTextFromNode(int index)
