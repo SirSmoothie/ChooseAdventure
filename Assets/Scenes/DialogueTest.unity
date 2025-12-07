@@ -717,6 +717,78 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1303207566622140444, guid: d0f959269a1704342b1fdc95e99acfe5, type: 3}
+      propertyPath: subNodes.Array.size
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1303207566622140444, guid: d0f959269a1704342b1fdc95e99acfe5, type: 3}
+      propertyPath: subNodes.Array.data[0].text
+      value: The world around me was like a spectacle without equal. Clouds white
+        as snow billowed around like endless mist, obscuring the tiles underneath.
+        In the world I know, I had never seen clouds or rocks so white, so clean
+        and pristine.  \n\nWere such things even real?
+      objectReference: {fileID: 0}
+    - target: {fileID: 1303207566622140444, guid: d0f959269a1704342b1fdc95e99acfe5, type: 3}
+      propertyPath: subNodes.Array.data[1].text
+      value: "\u2018AGENT KAY.\u2019"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1303207566622140444, guid: d0f959269a1704342b1fdc95e99acfe5, type: 3}
+      propertyPath: subNodes.Array.data[2].text
+      value: "The voice that could only be described as divine boomed without direction,
+        it did not feel that it was merely all around me, but that it emanated from
+        within my very skull. \\n\\nAbove the sea of mist, I saw him. A statue of
+        white and veins of gold towered above me, the avatar of Helios. It was not
+        his true form, but the form he decided was permissible for my eyes.  \\n\\nMy
+        knees folded at his visage, not out of weakness of my own mind or body, but
+        as if a giant hand had bent them as if they were a doll\u2019s. \\n\\nIn
+        this virtual world, Helios was a god in every sense of the word. My own avatar,
+        my body in this world, responded to his will first."
+      objectReference: {fileID: 0}
+    - target: {fileID: 1303207566622140444, guid: d0f959269a1704342b1fdc95e99acfe5, type: 3}
+      propertyPath: subNodes.Array.data[3].text
+      value: "\u2018YOU SHOW ADMIRABLE AMBITION TO TAKE UPON MY TASK.\u2019 "
+      objectReference: {fileID: 0}
+    - target: {fileID: 1303207566622140444, guid: d0f959269a1704342b1fdc95e99acfe5, type: 3}
+      propertyPath: subNodes.Array.data[4].text
+      value: 'The words that penetrated into my brain could not be blocked out. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 1303207566622140444, guid: d0f959269a1704342b1fdc95e99acfe5, type: 3}
+      propertyPath: subNodes.Array.data[5].text
+      value: "\u2018WHETHER YOU HAVE WISDOM, WILL BE SEEN.  \\n\\nI RESPECT WANT,
+        BUT I DESPISE THE INCOMPETENCE OF THOSE WHO CANNOT MEASURE THEIR OWN ABILITIES.\u2019"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1303207566622140444, guid: d0f959269a1704342b1fdc95e99acfe5, type: 3}
+      propertyPath: subNodes.Array.data[6].text
+      value: "A small silence lingered, was he expecting me to respond or\u2026?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1303207566622140444, guid: d0f959269a1704342b1fdc95e99acfe5, type: 3}
+      propertyPath: subNodes.Array.data[1].endOfDialogue
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1303207566622140444, guid: d0f959269a1704342b1fdc95e99acfe5, type: 3}
+      propertyPath: subNodes.Array.data[6].endOfDialogue
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1303207566622140444, guid: d0f959269a1704342b1fdc95e99acfe5, type: 3}
+      propertyPath: subNodes.Array.data[2].dialogueDuration
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 1303207566622140444, guid: d0f959269a1704342b1fdc95e99acfe5, type: 3}
+      propertyPath: subNodes.Array.data[3].dialogueDuration
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 1303207566622140444, guid: d0f959269a1704342b1fdc95e99acfe5, type: 3}
+      propertyPath: subNodes.Array.data[4].dialogueDuration
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 1303207566622140444, guid: d0f959269a1704342b1fdc95e99acfe5, type: 3}
+      propertyPath: subNodes.Array.data[5].dialogueDuration
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 1303207566622140444, guid: d0f959269a1704342b1fdc95e99acfe5, type: 3}
+      propertyPath: subNodes.Array.data[6].dialogueDuration
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 1303207566622140444, guid: d0f959269a1704342b1fdc95e99acfe5, type: 3}
       propertyPath: questionNodes.Array.data[0].NextDialogue
       value: 
       objectReference: {fileID: 1276392895}
