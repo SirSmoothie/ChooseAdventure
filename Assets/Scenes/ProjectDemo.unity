@@ -2991,6 +2991,10 @@ PrefabInstance:
       value: "A small silence lingered, was he expecting me to respond or\u2026?"
       objectReference: {fileID: 0}
     - target: {fileID: 1303207566622140444, guid: d0f959269a1704342b1fdc95e99acfe5, type: 3}
+      propertyPath: subNodes.Array.data[2].image
+      value: 
+      objectReference: {fileID: 7482667652216324306, guid: 2e934c288e89f7e479bedd7b537f503e, type: 3}
+    - target: {fileID: 1303207566622140444, guid: d0f959269a1704342b1fdc95e99acfe5, type: 3}
       propertyPath: questionNodes.Array.data[0].text
       value: Try to speak.
       objectReference: {fileID: 0}
@@ -3333,7 +3337,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6747433604743671594, guid: c0b33ab774ad6064797163f496b69dcd, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.000034091703
+      value: 0.00009244921
       objectReference: {fileID: 0}
     - target: {fileID: 7351379714774337199, guid: c0b33ab774ad6064797163f496b69dcd, type: 3}
       propertyPath: m_AnchorMax.x
