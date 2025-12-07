@@ -89,16 +89,26 @@ public class DialogueManager : MonoBehaviour
         loadedDialogueIndex = index;
         textDuration = subNode.dialogueDuration;
     }
+    public void DisplayCurrentNodeFull(DialogueSubNode subNode)
+    {
+        typewriter.NewLineFull(subNode.text);
+    }
 
     public void ClickDetected()
     {
+        if (time >= textDuration)
+        {
+            dialogueActive = false;
+        }
         if (time < textDuration)
         {
             time = textDuration;
+            LoadedDialogueNode.DisplayFullText();
         }
         else if (!dialogueActive && !LoadedDialogueNode.subNodes[loadedDialogueIndex].endOfDialogue)
         {
             LoadedDialogueNode.NextDialogue();
+            time = 0;
         }
     }
     private void Update()

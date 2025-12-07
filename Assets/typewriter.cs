@@ -10,15 +10,34 @@ public class Typewriter : MonoBehaviour
     public TextMeshProUGUI text;
     public string line;
     public float textSpeed;
+    private Coroutine _coroutine;
 
+    private void Start()
+    {
+        text.text = "";
+    }
+
+    public void NewLineFull(string newLine)
+    {
+        if (_coroutine != null)
+        {
+            StopCoroutine(_coroutine);
+            _coroutine = null;
+        }
+        text.text = newLine;
+    }
     public void NewLine(string newLine)
     {
+        if (_coroutine != null)
+        {
+            StopCoroutine(_coroutine);
+            _coroutine = null;
+        }
         if(line == newLine) return;
-        StopCoroutine(typewriter());
         text.text = string.Empty;
         line = string.Empty;
         line = newLine;
-        StartCoroutine(typewriter());
+        _coroutine = StartCoroutine(typewriter());
     }
     IEnumerator typewriter()
     {

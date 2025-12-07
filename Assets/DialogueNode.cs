@@ -38,21 +38,24 @@ public class DialogueNode : MonoBehaviour
         return questionNodes[index].text;
     }
 
+    public void DisplayFullText()
+    {
+        DialogueManager.Current.DisplayCurrentNodeFull(subNodes[_index]);
+    }
     public void NextDialogue()
     {
         if (!subNodes[_index].endOfDialogue)
         {
             _index++;
+            StartDialogue();
         }
         else
         {
             if (questionNodes.Length == 0)
             {
                 DialogueManager.Current.StartDialogue(nextDialogueNodeAtEndOfDialogue);
-                return;
             }
         }
-        StartDialogue();
     }
 
     private void OnDrawGizmos()
