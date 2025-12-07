@@ -819,6 +819,10 @@ PrefabInstance:
         of it.
       objectReference: {fileID: 0}
     - target: {fileID: 1303207566622140444, guid: d0f959269a1704342b1fdc95e99acfe5, type: 3}
+      propertyPath: subNodes.Array.data[0].image
+      value: 
+      objectReference: {fileID: 21300000, guid: 29eef0c8b4083b141bac25b825a6587d, type: 3}
+    - target: {fileID: 1303207566622140444, guid: d0f959269a1704342b1fdc95e99acfe5, type: 3}
       propertyPath: subNodes.Array.data[10].text
       value: A sudden tremble alerted me to my immediate landing before my implants
         did. The pod shook and the thrusters roared as I grasped the handholds beside
@@ -902,6 +906,18 @@ PrefabInstance:
       value: With a hand brushing up against my holstered weapon for courage, I set
         off after my prey.
       objectReference: {fileID: 0}
+    - target: {fileID: 1303207566622140444, guid: d0f959269a1704342b1fdc95e99acfe5, type: 3}
+      propertyPath: subNodes.Array.data[11].image
+      value: 
+      objectReference: {fileID: 21300000, guid: 9517f300d35e6004fa9a30e93099dd67, type: 3}
+    - target: {fileID: 1303207566622140444, guid: d0f959269a1704342b1fdc95e99acfe5, type: 3}
+      propertyPath: subNodes.Array.data[17].image
+      value: 
+      objectReference: {fileID: 21300000, guid: 7032fdf90c0b5d147a94332f0f037098, type: 3}
+    - target: {fileID: 1303207566622140444, guid: d0f959269a1704342b1fdc95e99acfe5, type: 3}
+      propertyPath: subNodes.Array.data[21].image
+      value: 
+      objectReference: {fileID: 21300000, guid: 9517f300d35e6004fa9a30e93099dd67, type: 3}
     - target: {fileID: 1303207566622140444, guid: d0f959269a1704342b1fdc95e99acfe5, type: 3}
       propertyPath: nextDialogueNodeAtEndOfDialogue
       value: 
@@ -2491,6 +2507,10 @@ PrefabInstance:
       value: "\u2018Wha\u2026?\u2019"
       objectReference: {fileID: 0}
     - target: {fileID: 1303207566622140444, guid: d0f959269a1704342b1fdc95e99acfe5, type: 3}
+      propertyPath: subNodes.Array.data[0].image
+      value: 
+      objectReference: {fileID: 21300000, guid: 2bb4f03792d651f498f969c2c249abe2, type: 3}
+    - target: {fileID: 1303207566622140444, guid: d0f959269a1704342b1fdc95e99acfe5, type: 3}
       propertyPath: subNodes.Array.data[10].text
       value: "The stupified words that left my lips involuntarily betrayed my thoughts.
         \\n\\nMy eyes focused back on the figure before me, the head of a great,
@@ -3020,7 +3040,7 @@ PrefabInstance:
     - target: {fileID: 1303207566622140444, guid: d0f959269a1704342b1fdc95e99acfe5, type: 3}
       propertyPath: subNodes.Array.data[2].image
       value: 
-      objectReference: {fileID: 7482667652216324306, guid: 2e934c288e89f7e479bedd7b537f503e, type: 3}
+      objectReference: {fileID: 21300000, guid: bf17267d4008ff94e9e8ad0e17bfa51f, type: 3}
     - target: {fileID: 1303207566622140444, guid: d0f959269a1704342b1fdc95e99acfe5, type: 3}
       propertyPath: questionNodes.Array.data[0].text
       value: Try to speak.
@@ -3364,7 +3384,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6747433604743671594, guid: c0b33ab774ad6064797163f496b69dcd, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.000040790343
+      value: 0.000079236524
       objectReference: {fileID: 0}
     - target: {fileID: 7351379714774337199, guid: c0b33ab774ad6064797163f496b69dcd, type: 3}
       propertyPath: m_AnchorMax.x
