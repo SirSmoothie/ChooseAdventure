@@ -11,23 +11,13 @@ public class Typewriter : MonoBehaviour
     public string line;
     public float textSpeed;
 
-    private void Start()
-    {
-        text.text = string.Empty;
-        StartTypeWriter();
-    }
-
-    void StartTypeWriter()
-    {
-        StartCoroutine(typewriter());
-    }
-
     public void NewLine(string newLine)
     {
         if(line == newLine) return;
         StopCoroutine(typewriter());
+        text.text = string.Empty;
+        line = string.Empty;
         line = newLine;
-        text.text = String.Empty;
         StartCoroutine(typewriter());
     }
     IEnumerator typewriter()
