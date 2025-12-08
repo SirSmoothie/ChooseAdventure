@@ -209,6 +209,10 @@ PrefabInstance:
       value: "\u2018Yes. I am to take back what\u2019s his. What happens to yo-\u2019"
       objectReference: {fileID: 0}
     - target: {fileID: 1303207566622140444, guid: d0f959269a1704342b1fdc95e99acfe5, type: 3}
+      propertyPath: subNodes.Array.data[0].image
+      value: 
+      objectReference: {fileID: 21300000, guid: 66578e32b8d95184891d5c4383b3a436, type: 3}
+    - target: {fileID: 1303207566622140444, guid: d0f959269a1704342b1fdc95e99acfe5, type: 3}
       propertyPath: subNodes.Array.data[10].text
       value: "\u2018I\u2019m sorry! I\u2019m so sorry! Lord Helios, I did not mean
         to anger you!\u2019"
@@ -264,6 +268,10 @@ PrefabInstance:
       value: "\u2018The others here\u2026 these barbarians. They linger on in these
         tainted lands, too proud, too arrogant. The Ascendants offer them the chance
         to improve themselves, to conquer the confines imposed by nature and they\u2026\u2019"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1303207566622140444, guid: d0f959269a1704342b1fdc95e99acfe5, type: 3}
+      propertyPath: subNodes.Array.data[1].image
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 1303207566622140444, guid: d0f959269a1704342b1fdc95e99acfe5, type: 3}
       propertyPath: subNodes.Array.data[20].text
@@ -323,6 +331,10 @@ PrefabInstance:
       propertyPath: subNodes.Array.data[29].text
       value: "\u2018I did know that he could make such a hell.\u2019"
       objectReference: {fileID: 0}
+    - target: {fileID: 1303207566622140444, guid: d0f959269a1704342b1fdc95e99acfe5, type: 3}
+      propertyPath: subNodes.Array.data[2].image
+      value: 
+      objectReference: {fileID: 21300000, guid: bba6eadc23acd3f45939b34ddaca5116, type: 3}
     - target: {fileID: 1303207566622140444, guid: d0f959269a1704342b1fdc95e99acfe5, type: 3}
       propertyPath: subNodes.Array.data[30].text
       value: Inadvertently, his eyes flickered, a quick glance to a pile of junk
@@ -1529,6 +1541,10 @@ PrefabInstance:
       value: END OF DEMO
       objectReference: {fileID: 0}
     - target: {fileID: 1303207566622140444, guid: d0f959269a1704342b1fdc95e99acfe5, type: 3}
+      propertyPath: subNodes.Array.data[6].image
+      value: 
+      objectReference: {fileID: 10917, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 1303207566622140444, guid: d0f959269a1704342b1fdc95e99acfe5, type: 3}
       propertyPath: subNodes.Array.data[1].endOfDialogue
       value: 0
       objectReference: {fileID: 0}
@@ -1699,6 +1715,10 @@ PrefabInstance:
         and actually do some damage. \n\nAnd that would be a heavy expense. \n\nI
         lined up my shot, berating myself quietly for expecting another outcome.
       objectReference: {fileID: 0}
+    - target: {fileID: 1303207566622140444, guid: d0f959269a1704342b1fdc95e99acfe5, type: 3}
+      propertyPath: subNodes.Array.data[1].image
+      value: 
+      objectReference: {fileID: 21300000, guid: 259721bd85d1ad54697945af5cbcf4bc, type: 3}
     - target: {fileID: 1303207566622140444, guid: d0f959269a1704342b1fdc95e99acfe5, type: 3}
       propertyPath: nextDialogueNodeAtEndOfDialogue
       value: 
@@ -1924,6 +1944,10 @@ PrefabInstance:
       propertyPath: subNodes.Array.data[7].text
       value: My eyes rolled and my body collapsed before the world left me.
       objectReference: {fileID: 0}
+    - target: {fileID: 1303207566622140444, guid: d0f959269a1704342b1fdc95e99acfe5, type: 3}
+      propertyPath: subNodes.Array.data[0].image
+      value: 
+      objectReference: {fileID: 10917, guid: 0000000000000000f000000000000000, type: 0}
     - target: {fileID: 1303207566622140444, guid: d0f959269a1704342b1fdc95e99acfe5, type: 3}
       propertyPath: nextDialogueNodeAtEndOfDialogue
       value: 
@@ -3032,7 +3056,7 @@ PrefabInstance:
     - target: {fileID: 1303207566622140444, guid: d0f959269a1704342b1fdc95e99acfe5, type: 3}
       propertyPath: subNodes.Array.data[0].image
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 10917, guid: 0000000000000000f000000000000000, type: 0}
     - target: {fileID: 1303207566622140444, guid: d0f959269a1704342b1fdc95e99acfe5, type: 3}
       propertyPath: subNodes.Array.data[1].image
       value: 
@@ -3384,7 +3408,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6747433604743671594, guid: c0b33ab774ad6064797163f496b69dcd, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.000079236524
+      value: 0.017171618
       objectReference: {fileID: 0}
     - target: {fileID: 7351379714774337199, guid: c0b33ab774ad6064797163f496b69dcd, type: 3}
       propertyPath: m_AnchorMax.x
